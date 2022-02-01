@@ -7,10 +7,25 @@ body {
 table {
   margin: 30px;
   border-collapse: collapse;
+  border-radius: 5px;
+  box-shadow: 5px 10px #888888;
+  margin: auto;
 }
 
 td, th {
   border: 1px solid #eee;
   min-width: 50px;
   padding: 2px 4px;
+}
+th{
+  background-color: aqua;
+}
+.odd{
+  background-color: darksalmon;
+}
+.even{
+  background-color: darkgray;
+}
+.headline{
+  text-align: center;
 }

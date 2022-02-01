@@ -47,10 +47,10 @@ const pokemonConfig = [
 
 const App = () => (
   <div>
-    <h2>Movies</h2>
+    <h2 className='headline'>Movies</h2>
     <Grid config={moviesConfig} data={movies} />
 
-    <h2>Pokemon</h2>
+    <h2 className='headline'>Pokemon</h2>
     <Grid config={pokemonConfig} data={pokemon} />
   </div>
 );
