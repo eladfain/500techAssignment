@@ -8,9 +8,7 @@ const Grid = ({ config, data }) => {
         <td key={"cell" + row[entry.field] + index}>
           {entry.component ? (
             <entry.component data={row[entry.field]} />
-          ) : (
-            row[entry.field]
-          )}
+          ) : (row[entry.field])}
         </td>
       ))}
     </tr>
